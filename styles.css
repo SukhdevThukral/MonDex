@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color:  #FFC0CB;
+}
+
+.navBar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+#searchSec {
+    display: flex;
+}
+
+#searchInput {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
+}

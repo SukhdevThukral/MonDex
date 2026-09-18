@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>GottaFetchEmAll</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>GottaFetchEmAll</h1>
+            <nav class="navBar">
+                <a href="index.html">Search</a>
+                <a href="compare.html">Battle</a>
+            </nav>
+        </header>
+
+        <section id="searchSec">
+            <input type="text" id="searchInput" placeholder="Search Pokemon :D..."/>
+            <button>Go</button>
+        </section>
+
+        <section id="filterSection">
+            <button class="typeBtn" data-type="fire">🔥 FIRE </button>
+            <button class="typeBtn" data-type="water">💧 WATER </button>
+            <button class="typeBtn" data-type="grass">🌿 GRASS </button>
+            <button class="typeBtn" data-type="electric">⚡ ELECTRIC </button>
+            <button class="typeBtn" data-type="psychic">🔮 PSYCHIC </button>
+            <button class="typeBtn" data-type="all"> ALL </button>
+        </section>
+
+        <section id="cardGrid">
+
+        </section>
+
+        <section id="pokemonResult" class="hidden">
+            <div id="pokeCard">
+                <div class="cardFront">
+
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
