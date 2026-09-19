@@ -37,3 +37,88 @@ body{
     margin: 0 auto;
     padding: 0 8px;
 }
+
+#pokemonResult {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+#pokeCard {
+    background: white;
+    border-radius: 16px;
+    border: 3px solid #333;
+    padding: 24px;
+    width: 220px;
+    box-shadow: 4px 4px 0px #333;
+    cursor: pointer;
+}
+
+#pokeSprite{
+    width: 120px;
+    height: 120px;
+    image-rendering: pixelated;
+}
+
+#pokeName {
+    font-size: 1.2rem;
+    margin: 8px 0 4px;
+}
+
+#pokeTypes {
+    background: #74c7f0;
+    display: inline-block;
+    display: 2px 12px;
+    padding: 2px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+#pokeStats {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0;
+    text-align: left;
+    font-size: 0.85rem;
+}
+
+#pokeStats li {
+    padding: 4px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.pokeCard {
+    background: white;
+    border-radius: 16px;
+    border: 3px solid #333;
+    padding: 16px;
+    box-shadow: 4px 4px 0px #333;
+    cursor: pointer;
+    text-align: center;
+}
+
+.pokeCard img {
+    width: 80px;
+    height: 80px;
+    image-rendering: pixelated;
+}
+
+.pokeCard h3 {
+    font-size: 1rem;
+    margin: 6px 0 4px;
+}
+
+.pokeCard p {
+    background: #74c7f0;
+    display: inline-block;
+    display: 2px 12px;
+    padding: 2px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
