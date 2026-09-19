@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>GottaFetchEmAll | Battle Mode</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>GottaFetchEmAll</h1>
+            <nav class="navBar">
+                <a href="index.html">Search</a>
+                <a href="battle.html">Battle</a>
+            </nav>
+        </header>
+
+        <section id="battleSection">
+
+            <div class="fighter">
+                <input type="text" class="battleInp" id="input0" placeholder="Enter your Pokemon 1...."/>
+                <button class="battleButton" id="btn0">Choose</button>
+                <div class="battleCard hidden" id="card0">
+                    <img id="sprite1" src="" alt=""/>
+                    <h2 id="name1"></h2>
+                    <p id="type1"></p>
+                    <ul id="stats0"></ul>
+                </div>
+            </div>
+
+            <div id="versus">
+                <h2 id="versusText">VS</h2>
+                <div id="winner" class="hidden"></div>
+            </div>
+
+            <div class="fighter">
+                <input type="text" class="battleInp" id="input1" placeholder="Enter your Pokemon 2...."/>
+                <button class="battleButton" id="btn1">Choose</button>
+                <div class="battleCard hidden" id="card1">
+                    <img id="sprite2" src="" alt=""/>
+                    <h2 id="name2"></h2>
+                    <p id="type2"></p>
+                    <ul id="stats1"></ul>
+                </div>
+            </div>
+
+        </section>
+
+        <script src="battle.js"></script>
+    </body>
+</html>
