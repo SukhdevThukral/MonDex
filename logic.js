@@ -1,4 +1,5 @@
 let searchTime;
+const searchInput = document.getElementById('searchInput');
 
 document.querySelector('#searchSec button').addEventListener('click', () => {
     const query = document.getElementById('searchInput').value.trim().toLowerCase();
